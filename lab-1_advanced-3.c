@@ -1,41 +1,16 @@
 #include <stdio.h>
+int main(){
 
+    int a, b, c,d;
 
-int main() {
+    printf("This is the mathematical expression --- (a+b) * c - d");
+    printf("\nEnter variables a, b, c and d: \n");
 
-    int x, y;
-
-    char choice;
-
-    printf("Enter the Operator (+,-,*,/): ");
-    scanf(" %c", &choice);
-
-    printf("Enter number: ");
-    scanf("%d", &x);
-
-    printf("Enter number: ");
-    scanf("%d", &y);
-
-
-    if ( choice == '+'){
-        printf("%d + %d = %d\n", x, y, x + y);
-    }
-
-    else if ( choice == '-'){
-        printf("%d - %d = %d\n", x, y, x - y);
-    }
-
-    else if( choice == '*'){
-        printf("%d * %d = %d\n", x, y, x *y);
-    }
-
-    else if( choice == '/'){
-        printf("%d / %d = %d", x, y, x / y);
-    }
-
-    else{
-        printf("Invalid Operator Input\n");
-    }
-
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    
+    float exp = (a+ b) * c - d;
+    printf("Result: %.4f", exp);
     return 0;
 }
+
+
