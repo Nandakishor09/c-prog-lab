@@ -7,6 +7,12 @@ int main(){
     scanf("%d", &num);
 
     int i = 2, count = 0;
+
+    if (num <= 1) {
+        printf("Not a Prime number"); 
+        return 0;
+    }
+    
     while ( i <= num/2){
         if ( num % i == 0){
             count++;
@@ -19,3 +25,4 @@ int main(){
         printf("Not a Prime number");
     return 0;
 }
+
