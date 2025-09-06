@@ -7,7 +7,7 @@ int main(){
     scanf("%d", &num);
 
     if ( num == 0)
-        printf("Enter number is 0");
+        printf("Entered number is 0");
     else if ( num % 2 == 0)
         printf("Enter number is a even number");
     else
@@ -15,3 +15,4 @@ int main(){
 
     return 0;
 }
+
