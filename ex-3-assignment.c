@@ -22,9 +22,10 @@ int main(){
         printf("DA (10%): %.2f\n", da);
         printf("HRA (20%): %.2f\n", hra);
         printf("TAX (5%): %.2f\n", tax);
-        printf("Net salary: %.2f", net_salary);
+        printf("Net salary: %.2f\n", net_salary);
         i++;
     }
     return 0;
 
 }
+
