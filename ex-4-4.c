@@ -4,7 +4,7 @@ int main(){
 
     int i,j;
     int matrix[100][100];
-    int row,col,zeros;
+    int row,col,zeros = 0;
     int even = 0, odd = 0;
 
     printf("Enter no of rows: ");
@@ -39,4 +39,5 @@ int main(){
     printf("No of even zeros in the array: %d\n", zeros);
 
 }
+
 
